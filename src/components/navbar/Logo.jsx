@@ -15,7 +15,7 @@ function Logo() {
       opacity: 0,
       stagger: 0.025,
       duration: 0.4,
-      ease: "power2.out",
+      ease: "sin",
       delay: 0.3,
       filter: "blur(4px)",
     });
@@ -27,7 +27,7 @@ function Logo() {
         ref={textRef}
         className="text-white font-semibold text-lg cursor-pointer shrink-0"
       >
-        Shree Ayyappa Seva Parishad
+        Shree Ayyappa Seva Parishad, Sangvi
       </span>
     </div>
   );

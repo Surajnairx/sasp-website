@@ -17,7 +17,7 @@ function Navbar() {
 
   return (
     <header ref={navRef} className="bg-orange-600" id="header">
-      <nav className="container-custom px-12 py-3 flex justify-between items-center max-lg:justify-center">
+      <nav className="container-custom px-20 py-3 flex justify-between items-center max-lg:justify-center">
         <Logo />
         <NavMenu />
       </nav>
