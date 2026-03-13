@@ -21,11 +21,11 @@ function Logo() {
     });
   });
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-2 pr-10 lg:pr-0">
       <img src={logo} alt="temple logo" className="h-8 w-8" />
       <span
         ref={textRef}
-        className="text-white font-semibold text-lg cursor-pointer shrink-0"
+        className="text-white font-semibold text-sm lg:text-lg cursor-pointer shrink-0"
       >
         Shree Ayyappa Seva Parishad, Sangvi
       </span>

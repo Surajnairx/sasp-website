@@ -28,7 +28,7 @@ function NavMenu() {
   });
 
   return (
-    <ul ref={menuRef} className="flex items-center gap-8 max-lg:hidden">
+    <ul ref={menuRef} className=" lg:flex gap-6 text-white font-medium hidden">
       {links.map((link, index) => (
         <NavItem key={index} label={link} />
       ))}
