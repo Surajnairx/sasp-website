@@ -26,9 +26,9 @@ function HeroHeading() {
 
   return (
     <div ref={container}>
-      <h1 className="hero-title text-5xl md:text-6xl font-bold text-[#3B1F0E] leading-tight">
+      <h1 className="hero-title text-4xl md:text-6xl font-bold text-[#f96204] leading-tight">
         Welcome to <br />
-        <span className="text-[#fe5500]">Shree Temple</span>
+        <span className="text-[#fafafa]">Shree Ayyappa Temple</span>
       </h1>
 
       <p className="hero-subtext mt-5 text-lg md:text-xl text-black/80 max-w-lg">
