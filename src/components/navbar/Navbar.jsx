@@ -17,15 +17,6 @@ function Navbar() {
     setMenuOpen(!menuOpen);
   }
 
-  useGSAP(() => {
-    gsap.from(navRef.current, {
-      y: -30,
-      opacity: 0,
-      duration: 0.8,
-      ease: "sine.in",
-    });
-  });
-
   // hamburger animation
   useGSAP(() => {
     if (menuOpen) {
@@ -40,7 +31,7 @@ function Navbar() {
   }, [menuOpen]);
 
   return (
-    <header ref={navRef} className="lg:bg-orange-600 relative bg-red-600">
+    <header className="lg:bg-orange-600 relative bg-red-600">
       <nav className="container-custom flex justify-between items-center py-3 px-6 xl:px-0">
         <Logo />
 
