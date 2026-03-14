@@ -35,7 +35,7 @@ function Hamburger({ menuOpen }) {
   return (
     <div
       ref={hamRef}
-      className={`absolute lg:hidden top-full left-0 w-full flex flex-col  py-3 items-center gap-6 font-semibold text-lg bg-amber-800/20 text-orange-900`}
+      className={`absolute lg:hidden top-full left-0 w-full flex flex-col pl-7 py-3 items-center gap-6 font-semibold text-lg bg-amber-800/20 text-orange-900`}
     >
       <ul ref={menuRef}>
         {links.map((link, index) => (
