@@ -22,7 +22,7 @@ function Logo() {
   });
   return (
     <div className="flex items-center gap-2 pr-10 lg:pr-0">
-      <img src={logo} alt="temple logo" className="h-8 w-8" />
+      <img src={logo} alt="temple logo" className="h-10 w-10 rounded-full" />
       <span
         ref={textRef}
         className="text-white font-semibold text-sm lg:text-lg cursor-pointer shrink-0"

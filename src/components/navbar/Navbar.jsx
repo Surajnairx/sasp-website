@@ -22,7 +22,7 @@ function Navbar() {
       y: -30,
       opacity: 0,
       duration: 0.8,
-      ease: "power2.out",
+      ease: "sine.in",
     });
   });
 
@@ -51,7 +51,7 @@ function Navbar() {
         {/* Hamburger Button */}
         <button
           onClick={toggleMenu}
-          className="lg:hidden flex flex-col gap-1.5 bg-orange-600 px-2.5 py-3 rounded-full"
+          className="lg:hidden flex flex-col gap-1.5 bg-orange-500 px-1.5 py-2 rounded-full"
         >
           <span ref={topLine} className="w-6 h-0.5 bg-white"></span>
           <span ref={middleLine} className="w-6 h-0.5 bg-white"></span>
