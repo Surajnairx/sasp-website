@@ -12,8 +12,8 @@ function ContactInfo() {
 
       <div>
         <h3 className="text-lg font-semibold text-[#4b2e1e] mb-2">Phone</h3>
+        <p className="text-gray-600">+91 98220 29608</p>
         <p className="text-gray-600">+91 98220 29606</p>
-        <p className="text-gray-600">+91 98220 29605</p>
       </div>
 
       <div>
