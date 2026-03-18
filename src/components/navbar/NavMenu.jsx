@@ -14,7 +14,6 @@ function NavMenu() {
       name: "About",
       link: "#about",
     },
-    { name: "Pooja & Seva", link: "#pooja" },
     {
       name: "Events",
       link: "#events",
