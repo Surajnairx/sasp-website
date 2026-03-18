@@ -21,12 +21,15 @@ function HeroButton() {
   );
 
   return (
-    <div ref={container} className="mt-8 flex gap-5">
-      <button className="hero-btn bg-orange-500 text-white px-7 py-3 rounded-lg font-medium shadow-lg">
+    <div
+      ref={container}
+      className="mt-8 flex flex-col sm:flex-row gap-4 sm:gap-5 w-full sm:w-auto"
+    >
+      <button className="hero-btn w-full sm:w-auto bg-orange-500 text-white px-7 py-3 rounded-lg font-medium shadow-lg">
         View Pooja Schedule
       </button>
 
-      <button className="hero-btn bg-white text-gray-800 px-7 py-3 rounded-lg font-medium shadow-md border border-gray-200">
+      <button className="hero-btn w-full sm:w-auto bg-white text-gray-800 px-7 py-3 rounded-lg font-medium shadow-md border border-gray-200">
         Donate Now
       </button>
     </div>
