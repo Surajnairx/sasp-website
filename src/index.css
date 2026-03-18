@@ -1,5 +1,7 @@
 @import "tailwindcss";
-
+html {
+  scroll-behavior: smooth;
+}
 @layer components {
   .container-custom {
     @apply max-w-7xl mx-auto px-6;

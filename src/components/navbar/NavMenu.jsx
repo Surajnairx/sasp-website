@@ -6,13 +6,31 @@ import { useGSAP } from "@gsap/react";
 function NavMenu() {
   const menuRef = useRef();
   const links = [
-    "Home",
-    "About",
-    "Pooja & Seva",
-    "Events",
-    "Gallery",
-    "Donate",
-    "Contact",
+    {
+      name: "Home",
+      link: "#home",
+    },
+    {
+      name: "About",
+      link: "#about",
+    },
+    { name: "Pooja & Seva", link: "#pooja" },
+    {
+      name: "Events",
+      link: "#events",
+    },
+    {
+      name: "Gallery",
+      link: "#gallery",
+    },
+    {
+      name: "Donate",
+      link: "#donate",
+    },
+    {
+      name: "Contact",
+      link: "#contact",
+    },
   ];
 
   useGSAP(() => {
@@ -30,7 +48,7 @@ function NavMenu() {
   return (
     <ul ref={menuRef} className=" lg:flex gap-6 text-white font-medium hidden">
       {links.map((link, index) => (
-        <NavItem key={index} label={link} />
+        <NavItem key={index} label={link.name} link={link.link} />
       ))}
     </ul>
   );
