@@ -4,6 +4,8 @@ import Hero from "./components/hero/Hero";
 import AboutSection from "./components/about/About";
 import EventsSection from "./components/event/Event";
 import GallerySection from "./components/gallery/Gallery";
+import DonateSection from "./components/donate/Donate";
+import ContactSection from "./components/contact/Contact";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <AboutSection />
       <EventsSection />
       <GallerySection />
+      <DonateSection />
+      <ContactSection />
     </>
   );
 }
