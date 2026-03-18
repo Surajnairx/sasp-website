@@ -5,8 +5,9 @@ function Hero() {
   return (
     <>
       <section
-        className="relative z-10 h-[calc(100vh-64px)] bg-bottom bg-cover flex items-center"
+        className=" h-screen bg-bottom bg-cover flex items-center"
         style={{ backgroundImage: `url(${temple})` }}
+        id="home"
       >
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="container-custom w-full">

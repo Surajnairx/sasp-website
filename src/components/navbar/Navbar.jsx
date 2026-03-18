@@ -31,7 +31,7 @@ function Navbar() {
   }, [menuOpen]);
 
   return (
-    <header className="lg:bg-orange-600 relative bg-red-600">
+    <header className="lg:bg-orange-600 bg-red-600 fixed top-0 w-full z-100">
       <nav className="container-custom flex justify-between items-center py-3 px-6 xl:px-0">
         <Logo />
 

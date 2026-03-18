@@ -29,7 +29,7 @@ function DonateSection() {
   return (
     <section
       id="donate"
-      className="py-20 bg-linear-to-r from-[#4b2e1e] to-[#6b3f2a] text-white"
+      className=" h-screen py-20 bg-linear-to-r from-[#4b2e1e] to-[#6b3f2a] text-white flex justify-center items-center"
     >
       <div ref={sectionRef} className="container-custom max-w-3xl mx-auto">
         <DonateContent />
